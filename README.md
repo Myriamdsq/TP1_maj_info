@@ -16,4 +16,10 @@ We get the next message :
 </br> 
 </div>
 
-Moreover we can observe that if we are 'exit' after the prompt we exit the program.In the opposite if we are an another word 
+Moreover we can observe that if we are 'exit' after the prompt we exit the program. In the opposite if we have an another word, the program waits.
+
+### 2. Execution of the entered command and return to the prompt.
+
+The new programm waits after the prompt, a memorized function. We can test our program with differents functions as fortune, date ...
+
+
