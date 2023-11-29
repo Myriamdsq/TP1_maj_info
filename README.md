@@ -48,6 +48,6 @@ The second result is getting by 'ctrl' + d. We can observe all our progress with
 </br> 
 </div>
 
-
+Indeed we can applied a lot of functions as 'date' or 'fortune' and exit the prompt 'enseash %' with 'exit' or ctrl+d. 
 
 
