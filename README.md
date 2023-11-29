@@ -11,6 +11,10 @@ To display the message, we create a string of caracters. We don't use 'printf' b
 We get the next message :
 <div align="center">
 
+<img src="Images/exercice1.png"  width=300><br>
+
+<div>
+
 
 
 
