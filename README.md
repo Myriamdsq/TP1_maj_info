@@ -17,7 +17,3 @@ We get the next message :
 </div>
 
 
-
-
-
-
