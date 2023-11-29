@@ -9,11 +9,14 @@ You are in the Myriam and Marie's Github. This is our Lab1, and the objective is
 
 To display the message, we create a string of caracters. We don't use 'printf' but 'write' to display the sentence.
 We get the next message :
+
 <div align="center">
+<br>
+<img src="Images/exercice1.png" width="400"> </br>
+</br> 
+</div>
 
-<img src="Images/exercice1.png"  width=300><br>
 
-<div>
 
 
 
