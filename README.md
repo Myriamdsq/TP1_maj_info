@@ -12,8 +12,8 @@ We get the next message :
 
 <div align="center">
 <br>
-<img src="Images/exercice1.png" width="400"> </br>
+<img src="Images/exercice1v2.jpeg" width="400"> </br>
 </br> 
 </div>
 
-
+Moreover we can observe that if we are 'exit' after the prompt we exit the program.In the opposite if we are an another word 
