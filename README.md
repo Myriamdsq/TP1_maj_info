@@ -1,4 +1,4 @@
-# TP1_maj_info
+# TP1 by DASQUE Myriam and CARONELLO Marie
 
   
 You are on the Myriam and Marie's Github. This is our Lab1, and the objective is to develop a tiny shell, that displays exit codes and execution times of launched programs.
