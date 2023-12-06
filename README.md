@@ -32,7 +32,7 @@ The program permits to get the date with 'sate' or with nothing after the prompt
 
 ### 3. Management of the shell output with the command ”exit” or with <ctrl>+d.
 
-In this part we want to exit the program with the command 'exit and 'ctrl' + d.
+In this part we want to exit the program with the command 'exit and 'ctrl' + d. We use fork() because we need a father to continue our program even when we enable the commande "exit". The child execute the command "exit" and the father wait the child. So we stay in "enseah" even we enable the command "exit".
 
 <div align="center">
 <br>
