@@ -1,7 +1,7 @@
 # TP1_maj_info
 
   
-You are in the Myriam and Marie's Github. This is our Lab1, and the objective is develop a tiny shell, that displays exit codes and execution times of launched programs.
+You are in the Myriam and Marie's Github. This is our Lab1, and the objective is to develop a tiny shell, that displays exit codes and execution times of launched programs.
 
 <div>
 
@@ -60,3 +60,4 @@ Now we want to know which "exit" for which program. To realise the function we a
 </br> 
 </div>
 
+We observe that functions "datte" and "forutne" are associate to "exit 5" whereas when we push the enter button we get "exit 4". We have well different exit for different functions.
