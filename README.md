@@ -50,4 +50,6 @@ The second result is getting by 'ctrl' + d. We can observe all our progress with
 
 Indeed we can applied a lot of functions as 'date' or 'fortune' and exit the prompt 'enseash %' with 'exit' or ctrl+d. 
 
+### 4. Display the return code (or signal) of the previous command in the prompt.
 
+Now we want to know which "exit" for which program. To realise the function we are going to use the macro "WEXITSTATUS" is used to extract the exit code of a child process that has terminated normally. We define sevral exit for differents functions like date. We observe the next answer.
