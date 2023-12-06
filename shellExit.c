@@ -8,7 +8,7 @@
 int main() {
 	
 	char buffer[50];
-    const char message[] = "enseash %\n";
+    const char message[] = "enseash ";
     const char bye[]="Bye bye...\n";
     pid_t pid;
     int status;
