@@ -1,7 +1,7 @@
 # TP1_maj_info
 
   
-You are in the Myriam and Marie's Github. This is our Lab1, and the objective is to develop a tiny shell, that displays exit codes and execution times of launched programs.
+You are on the Myriam and Marie's Github. This is our Lab1, and the objective is to develop a tiny shell, that displays exit codes and execution times of launched programs.
 
 <div>
 
