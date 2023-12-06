@@ -12,12 +12,15 @@ int main() {
 	
 	char buffer[50];
 	char text[100];
+	char * commandToken[100];
     const char message[] = "enseash % ";
     const char bye[]="Bye bye...\n";
     pid_t pid;
     struct timespec tim_start, tim_stop;//time counting variables
     
     int status;
+    const char * separator = " "; // space is the separator
+    int i=0;
 	
 	while(1){ 
 		
@@ -62,7 +65,17 @@ int main() {
 				execlp(date, date, (char *)NULL);
 			}
 			else if (n>1){
-				execlp(buffer, buffer, (char *)NULL);
+				i=0;
+				char * strToken = strtok(buffer,separator);
+				while(strToken !=NULL){ //entire buffer parcourt
+					commandToken[i]=strToken;
+					strToken = strtok(NULL,separator); // next token
+					i++;
+				}
+				commandToken[i] = NULL;
+				execvp(commandToken[0],commandToken);
+				perror("execvp");
+				exit(EXIT_FAILURE);
 			}
 		}
 	}

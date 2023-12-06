@@ -48,12 +48,13 @@ int main() {
 			if(n==1){
 				// enter case
 				const char *date="date";
+				//exit(4); test of the fonctionnement
 				execlp(date, date, (char *)NULL);
-				exit(4);
+ 
 			}
 			else if (n>1){
+				//exit(5);
 				execlp(buffer, buffer, (char *)NULL);
-				exit(5);
 			}
 		}
 	}
