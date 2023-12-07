@@ -61,6 +61,7 @@ Now we want to know which "exit" for which program. To realise the function we a
 </div>
 
 We observe that functions "datte" and "forutne" are associate to "exit 5" whereas when we push the enter button we get "exit 4". We have well different exit for different functions.
+In this screenshot we observe the non-display of program execution. It is because the lign of display (exit) is before the ligne of display execution. We change that problem. To see the solution with "sign" , in a new file we create a new function.
 
 ### 5. Measurement of the command execution time using the call clock_gettime.
 
