@@ -72,7 +72,15 @@ In this screenshot we observe the non-display of program execution. It is becaus
 
 ### 5. Measurement of the command execution time using the call clock_gettime.
 
-Futhermore we wnat to display the command execution time. We use a new function clock_gettime for this new program. We can observe that different functions don't have the same execution time.
+Futhermore we want to display the command execution time. We use a new function clock_gettime for this new program. We can observe that different functions don't have the same execution time.
+
+<div align="center">
+<br>
+<img src="Images/exercice5.jpeg" width="400"> </br>
+</br> 
+</div>
+
+So we can see the difference betwenn the function "date" that last 3ms and the function "fortune" that last 20ms.
 
 ### 6.Execution of a complex command (with arguments).
 
